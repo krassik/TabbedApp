@@ -3,6 +3,8 @@ import Foundation
 
 public protocol NetworkController {
     func fetchCurrentWeatherData(city: String, completionHandler: @escaping (WeatherData?, NetworkControllerError?) -> Void)
+    
+    func fetchAll(url: String, completionHandler: @escaping ([Any]?) -> Void)
 }
 
 

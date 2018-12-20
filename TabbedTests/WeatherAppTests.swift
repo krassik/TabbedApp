@@ -1,4 +1,5 @@
 import XCTest
+@testable import Tabbed
 
 class WeatherAppTests: XCTestCase {
 

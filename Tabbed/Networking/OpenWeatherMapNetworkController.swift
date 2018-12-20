@@ -1,7 +1,10 @@
 import Foundation
 
 final class OpenWeatherMapNetworkController: NetworkController {
- 
+    func fetchAll<T>(url: String, completionHandler: @escaping ([T]?) -> Void) {
+        
+    }
+    
     public var tempUnit: TemperatureUnit = .imperial
     
     func fetchCurrentWeatherData(city: String, completionHandler: @escaping (WeatherData?, NetworkControllerError?) -> Void)  {
