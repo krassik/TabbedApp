@@ -8,13 +8,15 @@ final class OVNetworkController: NetworkController {
         Alamofire.request(url).responseJSON { (response) in
             // print( response.value ?? "no info")
             
-            if let data = response.data,
-               let videos = try? JSONDecoder().decode([Video].self, from: data) {
+            guard
+               let data = response.data,
+               let videos = try? JSONDecoder().decode([Video].self, from: data) else {
             
-               completionHandler(videos)
+               completionHandler( nil )
+               return
             }
             
-            completionHandler( nil )
+            completionHandler( videos )
         }
     }
     

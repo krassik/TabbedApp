@@ -26,6 +26,8 @@
 		5B15B4EE21CC151A008F90A0 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B15B4ED21CC151A008F90A0 /* Extensions.swift */; };
 		5B15B4F021CC17CF008F90A0 /* OVNetworkController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B15B4EF21CC17CF008F90A0 /* OVNetworkController.swift */; };
 		5B15B4F221CC2440008F90A0 /* OVDataMappings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B15B4F121CC2440008F90A0 /* OVDataMappings.swift */; };
+		5B9FCA4F21CC36E20086881B /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B9FCA4E21CC36E20086881B /* CollectionViewController.swift */; };
+		5B9FCA5121CC3B210086881B /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B9FCA5021CC3B210086881B /* CollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +69,8 @@
 		5B15B4ED21CC151A008F90A0 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		5B15B4EF21CC17CF008F90A0 /* OVNetworkController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OVNetworkController.swift; sourceTree = "<group>"; };
 		5B15B4F121CC2440008F90A0 /* OVDataMappings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OVDataMappings.swift; sourceTree = "<group>"; };
+		5B9FCA4E21CC36E20086881B /* CollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
+		5B9FCA5021CC3B210086881B /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
 		9CF0F6F76A399A20F7836923 /* Pods-Tabbed.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tabbed.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Tabbed/Pods-Tabbed.debug.xcconfig"; sourceTree = "<group>"; };
 		CE7473B2625DD52AD298BF7B /* Pods_Tabbed.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tabbed.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E22ADA93D39F047DD80EA3B2 /* Pods-Tabbed.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tabbed.release.xcconfig"; path = "Pods/Target Support Files/Pods-Tabbed/Pods-Tabbed.release.xcconfig"; sourceTree = "<group>"; };
@@ -134,12 +138,14 @@
 				5B15B4DB21CAC116008F90A0 /* Networking */,
 				5B15B4AB21CAB841008F90A0 /* AppDelegate.swift */,
 				5B15B4AD21CAB841008F90A0 /* WeatherViewController.swift */,
+				5B9FCA4E21CC36E20086881B /* CollectionViewController.swift */,
 				5B15B4AF21CAB841008F90A0 /* AlamoViewController.swift */,
 				5B15B4B121CAB841008F90A0 /* Main.storyboard */,
 				5B15B4B421CAB842008F90A0 /* Assets.xcassets */,
 				5B15B4B621CAB842008F90A0 /* LaunchScreen.storyboard */,
 				5B15B4B921CAB842008F90A0 /* Info.plist */,
 				5B15B4ED21CC151A008F90A0 /* Extensions.swift */,
+				5B9FCA5021CC3B210086881B /* CollectionViewCell.swift */,
 			);
 			path = Tabbed;
 			sourceTree = "<group>";
@@ -323,12 +329,16 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-Tabbed/Pods-Tabbed-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -368,11 +378,13 @@
 				5B15B4F221CC2440008F90A0 /* OVDataMappings.swift in Sources */,
 				5B15B4DD21CAC15C008F90A0 /* NetworkController.swift in Sources */,
 				5B15B4B021CAB841008F90A0 /* AlamoViewController.swift in Sources */,
+				5B9FCA4F21CC36E20086881B /* CollectionViewController.swift in Sources */,
 				5B15B4AC21CAB841008F90A0 /* AppDelegate.swift in Sources */,
 				5B15B4AE21CAB841008F90A0 /* WeatherViewController.swift in Sources */,
 				5B15B4E121CACF7B008F90A0 /* OpenWeatherMapNetworkController.swift in Sources */,
 				5B15B4F021CC17CF008F90A0 /* OVNetworkController.swift in Sources */,
 				5B15B4EE21CC151A008F90A0 /* Extensions.swift in Sources */,
+				5B9FCA5121CC3B210086881B /* CollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
