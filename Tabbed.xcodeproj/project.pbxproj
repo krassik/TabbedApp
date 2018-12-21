@@ -28,6 +28,9 @@
 		5B15B4F221CC2440008F90A0 /* OVDataMappings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B15B4F121CC2440008F90A0 /* OVDataMappings.swift */; };
 		5B9FCA4F21CC36E20086881B /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B9FCA4E21CC36E20086881B /* CollectionViewController.swift */; };
 		5B9FCA5121CC3B210086881B /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B9FCA5021CC3B210086881B /* CollectionViewCell.swift */; };
+		5B9FCA5421CC6DBF0086881B /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B9FCA5321CC6DBF0086881B /* Repository.swift */; };
+		5B9FCA5621CC6DF70086881B /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B9FCA5521CC6DF70086881B /* ViewModel.swift */; };
+		5B9FCA5821CC836A0086881B /* SearchScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B9FCA5721CC836A0086881B /* SearchScreenViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +74,9 @@
 		5B15B4F121CC2440008F90A0 /* OVDataMappings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OVDataMappings.swift; sourceTree = "<group>"; };
 		5B9FCA4E21CC36E20086881B /* CollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
 		5B9FCA5021CC3B210086881B /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		5B9FCA5321CC6DBF0086881B /* Repository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repository.swift; sourceTree = "<group>"; };
+		5B9FCA5521CC6DF70086881B /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		5B9FCA5721CC836A0086881B /* SearchScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchScreenViewController.swift; sourceTree = "<group>"; };
 		9CF0F6F76A399A20F7836923 /* Pods-Tabbed.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tabbed.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Tabbed/Pods-Tabbed.debug.xcconfig"; sourceTree = "<group>"; };
 		CE7473B2625DD52AD298BF7B /* Pods_Tabbed.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tabbed.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E22ADA93D39F047DD80EA3B2 /* Pods-Tabbed.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tabbed.release.xcconfig"; path = "Pods/Target Support Files/Pods-Tabbed/Pods-Tabbed.release.xcconfig"; sourceTree = "<group>"; };
@@ -135,6 +141,7 @@
 		5B15B4AA21CAB841008F90A0 /* Tabbed */ = {
 			isa = PBXGroup;
 			children = (
+				5B9FCA5221CC6D850086881B /* Search */,
 				5B15B4DB21CAC116008F90A0 /* Networking */,
 				5B15B4AB21CAB841008F90A0 /* AppDelegate.swift */,
 				5B15B4AD21CAB841008F90A0 /* WeatherViewController.swift */,
@@ -179,6 +186,16 @@
 				5B15B4F121CC2440008F90A0 /* OVDataMappings.swift */,
 			);
 			path = Networking;
+			sourceTree = "<group>";
+		};
+		5B9FCA5221CC6D850086881B /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				5B9FCA5321CC6DBF0086881B /* Repository.swift */,
+				5B9FCA5521CC6DF70086881B /* ViewModel.swift */,
+				5B9FCA5721CC836A0086881B /* SearchScreenViewController.swift */,
+			);
+			path = Search;
 			sourceTree = "<group>";
 		};
 		B3A8203DCBCFC7DA4EE124C7 /* Pods */ = {
@@ -380,11 +397,14 @@
 				5B15B4B021CAB841008F90A0 /* AlamoViewController.swift in Sources */,
 				5B9FCA4F21CC36E20086881B /* CollectionViewController.swift in Sources */,
 				5B15B4AC21CAB841008F90A0 /* AppDelegate.swift in Sources */,
+				5B9FCA5621CC6DF70086881B /* ViewModel.swift in Sources */,
 				5B15B4AE21CAB841008F90A0 /* WeatherViewController.swift in Sources */,
 				5B15B4E121CACF7B008F90A0 /* OpenWeatherMapNetworkController.swift in Sources */,
 				5B15B4F021CC17CF008F90A0 /* OVNetworkController.swift in Sources */,
+				5B9FCA5821CC836A0086881B /* SearchScreenViewController.swift in Sources */,
 				5B15B4EE21CC151A008F90A0 /* Extensions.swift in Sources */,
 				5B9FCA5121CC3B210086881B /* CollectionViewCell.swift in Sources */,
+				5B9FCA5421CC6DBF0086881B /* Repository.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

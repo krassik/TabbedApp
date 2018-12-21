@@ -61,7 +61,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="W5J-7L-Pyd" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="828" y="-319"/>
+            <point key="canvasLocation" x="828" y="-882"/>
         </scene>
         <!--Item-->
         <scene sceneID="Zii-vb-REB">
@@ -113,7 +113,48 @@
                 </collectionViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="PDI-kk-a63" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="828" y="355.7721139430285"/>
+            <point key="canvasLocation" x="828" y="0.0"/>
+        </scene>
+        <!--Item-->
+        <scene sceneID="q6e-Ls-cbv">
+            <objects>
+                <tableViewController id="pmw-Cn-Jfy" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="x8i-8q-QbF">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="3Yr-n7-BGA">
+                                <rect key="frame" x="0.0" y="28" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="3Yr-n7-BGA" id="6TH-pL-oBR">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="pmw-Cn-Jfy" id="ZCN-Pw-3Qt"/>
+                            <outlet property="delegate" destination="pmw-Cn-Jfy" id="Bpg-vc-ada"/>
+                        </connections>
+                    </tableView>
+                    <tabBarItem key="tabBarItem" title="Item" id="7m9-iO-hdk"/>
+                    <connections>
+                        <outlet property="searchDisplayController" destination="6Kn-WE-phj" id="jAu-gn-RmO"/>
+                        <outlet property="tableView" destination="x8i-8q-QbF" id="6bH-7K-xNB"/>
+                    </connections>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5WF-hA-VWp" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <searchDisplayController id="6Kn-WE-phj">
+                    <connections>
+                        <outlet property="delegate" destination="pmw-Cn-Jfy" id="G1D-tw-Daf"/>
+                        <outlet property="searchContentsController" destination="pmw-Cn-Jfy" id="DzK-MC-wn9"/>
+                        <outlet property="searchResultsDataSource" destination="pmw-Cn-Jfy" id="7O4-IE-Uf1"/>
+                        <outlet property="searchResultsDelegate" destination="pmw-Cn-Jfy" id="Bhb-Sx-e3W"/>
+                    </connections>
+                </searchDisplayController>
+            </objects>
+            <point key="canvasLocation" x="828" y="762"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="yl2-sM-qoP">
@@ -132,11 +173,12 @@
                     <connections>
                         <segue destination="9pv-A4-QxB" kind="relationship" relationship="viewControllers" id="u7Y-xg-7CH"/>
                         <segue destination="icY-lc-3MB" kind="relationship" relationship="viewControllers" id="1V5-5I-N7X"/>
+                        <segue destination="pmw-Cn-Jfy" kind="relationship" relationship="viewControllers" id="eYm-4N-95s"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HuB-VB-40B" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="0.0" y="0.0"/>
+            <point key="canvasLocation" x="-386" y="1"/>
         </scene>
     </scenes>
     <resources>
