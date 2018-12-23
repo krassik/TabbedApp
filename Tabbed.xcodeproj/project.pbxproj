@@ -31,6 +31,18 @@
 		5B9FCA5421CC6DBF0086881B /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B9FCA5321CC6DBF0086881B /* Repository.swift */; };
 		5B9FCA5621CC6DF70086881B /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B9FCA5521CC6DF70086881B /* ViewModel.swift */; };
 		5B9FCA5821CC836A0086881B /* SearchScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B9FCA5721CC836A0086881B /* SearchScreenViewController.swift */; };
+		5B9FCA5C21CD76000086881B /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B9FCA5B21CD76000086881B /* TableViewController.swift */; };
+		5B9FCA5E21CD77190086881B /* TableViewCell4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B9FCA5D21CD77190086881B /* TableViewCell4.swift */; };
+		5B9FCA6021CD79DD0086881B /* TVDataMappings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B9FCA5F21CD79DD0086881B /* TVDataMappings.swift */; };
+		5B9FCA6221CD79F90086881B /* TVNetworkController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B9FCA6121CD79F90086881B /* TVNetworkController.swift */; };
+		5BF8507621CF1A41007A1D3F /* RxTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF8507521CF1A41007A1D3F /* RxTableViewController.swift */; };
+		5BF8507A21CF23C9007A1D3F /* Posting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF8507921CF23C9007A1D3F /* Posting.swift */; };
+		5BF8507C21CF26F8007A1D3F /* CustomError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF8507B21CF26F8007A1D3F /* CustomError.swift */; };
+		5BF8507E21CF424B007A1D3F /* ModelLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF8507D21CF424B007A1D3F /* ModelLayer.swift */; };
+		5BF8508121CF42C0007A1D3F /* NetworkLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF8508021CF42C0007A1D3F /* NetworkLayer.swift */; };
+		5BF8508321CF4486007A1D3F /* NetworkLayer+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF8508221CF4486007A1D3F /* NetworkLayer+Extensions.swift */; };
+		5BF8508521CF4729007A1D3F /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF8508421CF4729007A1D3F /* Message.swift */; };
+		5BF8508721CF4CDD007A1D3F /* NetworkExamplePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF8508621CF4CDD007A1D3F /* NetworkExamplePresenter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -77,6 +89,18 @@
 		5B9FCA5321CC6DBF0086881B /* Repository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repository.swift; sourceTree = "<group>"; };
 		5B9FCA5521CC6DF70086881B /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 		5B9FCA5721CC836A0086881B /* SearchScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchScreenViewController.swift; sourceTree = "<group>"; };
+		5B9FCA5B21CD76000086881B /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		5B9FCA5D21CD77190086881B /* TableViewCell4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell4.swift; sourceTree = "<group>"; };
+		5B9FCA5F21CD79DD0086881B /* TVDataMappings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVDataMappings.swift; sourceTree = "<group>"; };
+		5B9FCA6121CD79F90086881B /* TVNetworkController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVNetworkController.swift; sourceTree = "<group>"; };
+		5BF8507521CF1A41007A1D3F /* RxTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxTableViewController.swift; sourceTree = "<group>"; };
+		5BF8507921CF23C9007A1D3F /* Posting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Posting.swift; sourceTree = "<group>"; };
+		5BF8507B21CF26F8007A1D3F /* CustomError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomError.swift; sourceTree = "<group>"; };
+		5BF8507D21CF424B007A1D3F /* ModelLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelLayer.swift; sourceTree = "<group>"; };
+		5BF8508021CF42C0007A1D3F /* NetworkLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkLayer.swift; sourceTree = "<group>"; };
+		5BF8508221CF4486007A1D3F /* NetworkLayer+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NetworkLayer+Extensions.swift"; sourceTree = "<group>"; };
+		5BF8508421CF4729007A1D3F /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		5BF8508621CF4CDD007A1D3F /* NetworkExamplePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkExamplePresenter.swift; sourceTree = "<group>"; };
 		9CF0F6F76A399A20F7836923 /* Pods-Tabbed.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tabbed.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Tabbed/Pods-Tabbed.debug.xcconfig"; sourceTree = "<group>"; };
 		CE7473B2625DD52AD298BF7B /* Pods_Tabbed.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tabbed.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E22ADA93D39F047DD80EA3B2 /* Pods-Tabbed.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tabbed.release.xcconfig"; path = "Pods/Target Support Files/Pods-Tabbed/Pods-Tabbed.release.xcconfig"; sourceTree = "<group>"; };
@@ -141,6 +165,8 @@
 		5B15B4AA21CAB841008F90A0 /* Tabbed */ = {
 			isa = PBXGroup;
 			children = (
+				5BF8507421CF196D007A1D3F /* Rx */,
+				5B9FCA5A21CD75C00086881B /* TableViewController */,
 				5B9FCA5221CC6D850086881B /* Search */,
 				5B15B4DB21CAC116008F90A0 /* Networking */,
 				5B15B4AB21CAB841008F90A0 /* AppDelegate.swift */,
@@ -196,6 +222,56 @@
 				5B9FCA5721CC836A0086881B /* SearchScreenViewController.swift */,
 			);
 			path = Search;
+			sourceTree = "<group>";
+		};
+		5B9FCA5A21CD75C00086881B /* TableViewController */ = {
+			isa = PBXGroup;
+			children = (
+				5B9FCA5B21CD76000086881B /* TableViewController.swift */,
+				5B9FCA5D21CD77190086881B /* TableViewCell4.swift */,
+				5B9FCA5F21CD79DD0086881B /* TVDataMappings.swift */,
+				5B9FCA6121CD79F90086881B /* TVNetworkController.swift */,
+			);
+			path = TableViewController;
+			sourceTree = "<group>";
+		};
+		5BF8507421CF196D007A1D3F /* Rx */ = {
+			isa = PBXGroup;
+			children = (
+				5BF8507721CF23A6007A1D3F /* ModelLayer */,
+				5BF8507521CF1A41007A1D3F /* RxTableViewController.swift */,
+				5BF8508621CF4CDD007A1D3F /* NetworkExamplePresenter.swift */,
+			);
+			path = Rx;
+			sourceTree = "<group>";
+		};
+		5BF8507721CF23A6007A1D3F /* ModelLayer */ = {
+			isa = PBXGroup;
+			children = (
+				5BF8507F21CF42AF007A1D3F /* NetworkLayer */,
+				5BF8507821CF23B4007A1D3F /* Entities */,
+				5BF8507D21CF424B007A1D3F /* ModelLayer.swift */,
+			);
+			path = ModelLayer;
+			sourceTree = "<group>";
+		};
+		5BF8507821CF23B4007A1D3F /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				5BF8507921CF23C9007A1D3F /* Posting.swift */,
+				5BF8507B21CF26F8007A1D3F /* CustomError.swift */,
+				5BF8508421CF4729007A1D3F /* Message.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		5BF8507F21CF42AF007A1D3F /* NetworkLayer */ = {
+			isa = PBXGroup;
+			children = (
+				5BF8508021CF42C0007A1D3F /* NetworkLayer.swift */,
+				5BF8508221CF4486007A1D3F /* NetworkLayer+Extensions.swift */,
+			);
+			path = NetworkLayer;
 			sourceTree = "<group>";
 		};
 		B3A8203DCBCFC7DA4EE124C7 /* Pods */ = {
@@ -346,6 +422,8 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-Tabbed/Pods-Tabbed-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Apollo/Apollo.framework",
+				"${BUILT_PRODUCTS_DIR}/RxAlamofire/RxAlamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
 				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
 			);
@@ -354,6 +432,8 @@
 			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Apollo.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxAlamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
 			);
@@ -393,17 +473,29 @@
 			files = (
 				5B15B4E321CAD8FE008F90A0 /* OpenWeatherMapDataMappings.swift in Sources */,
 				5B15B4F221CC2440008F90A0 /* OVDataMappings.swift in Sources */,
+				5BF8508321CF4486007A1D3F /* NetworkLayer+Extensions.swift in Sources */,
 				5B15B4DD21CAC15C008F90A0 /* NetworkController.swift in Sources */,
 				5B15B4B021CAB841008F90A0 /* AlamoViewController.swift in Sources */,
+				5BF8507A21CF23C9007A1D3F /* Posting.swift in Sources */,
 				5B9FCA4F21CC36E20086881B /* CollectionViewController.swift in Sources */,
+				5BF8508521CF4729007A1D3F /* Message.swift in Sources */,
 				5B15B4AC21CAB841008F90A0 /* AppDelegate.swift in Sources */,
+				5B9FCA5E21CD77190086881B /* TableViewCell4.swift in Sources */,
 				5B9FCA5621CC6DF70086881B /* ViewModel.swift in Sources */,
 				5B15B4AE21CAB841008F90A0 /* WeatherViewController.swift in Sources */,
 				5B15B4E121CACF7B008F90A0 /* OpenWeatherMapNetworkController.swift in Sources */,
 				5B15B4F021CC17CF008F90A0 /* OVNetworkController.swift in Sources */,
+				5BF8508121CF42C0007A1D3F /* NetworkLayer.swift in Sources */,
 				5B9FCA5821CC836A0086881B /* SearchScreenViewController.swift in Sources */,
+				5BF8507621CF1A41007A1D3F /* RxTableViewController.swift in Sources */,
+				5BF8507C21CF26F8007A1D3F /* CustomError.swift in Sources */,
+				5BF8508721CF4CDD007A1D3F /* NetworkExamplePresenter.swift in Sources */,
+				5BF8507E21CF424B007A1D3F /* ModelLayer.swift in Sources */,
+				5B9FCA6221CD79F90086881B /* TVNetworkController.swift in Sources */,
 				5B15B4EE21CC151A008F90A0 /* Extensions.swift in Sources */,
 				5B9FCA5121CC3B210086881B /* CollectionViewCell.swift in Sources */,
+				5B9FCA6021CD79DD0086881B /* TVDataMappings.swift in Sources */,
+				5B9FCA5C21CD76000086881B /* TableViewController.swift in Sources */,
 				5B9FCA5421CC6DBF0086881B /* Repository.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

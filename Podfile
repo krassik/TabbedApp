@@ -4,6 +4,8 @@ use_frameworks!
 
 target 'Tabbed' do
     pod 'Alamofire'
+    pod 'RxAlamofire'
     pod 'RxSwift'
     pod 'RxCocoa'
+    pod 'Apollo'
 end

@@ -7,6 +7,8 @@
 //
 
 import UIKit
+import Apollo
+
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -18,7 +20,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Override point for customization after application launch.
         
         let tabViewController = (window?.rootViewController as! UITabBarController)
-        tabViewController.selectedIndex = 2
+        tabViewController.selectedIndex = 4
         return true
     }
 
